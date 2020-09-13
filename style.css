@@ -1,0 +1,35 @@
+.board {
+	width: 600px;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 30px;
+	
+
+}
+.square {
+	height: 200px;
+	width: 200px;
+	box-sizing: border-box;
+	border: 5px solid black;
+	font-size: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.square:hover {
+	cursor: pointer;
+	background-color: #80cd92;
+}
+
+
+
+
+/*about section*/
+#about {
+	margin: 30px;
+}
+
+
